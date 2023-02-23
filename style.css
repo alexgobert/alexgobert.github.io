@@ -64,10 +64,6 @@ body {
     border-bottom: 1px solid;
 }
 
-.fill-parent {
-    /* max-width: 100%; */
-}
-
 .no-list-item {
     list-style-type: none;
     margin: auto;
