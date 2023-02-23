@@ -5,7 +5,7 @@
     padding: 0;
     line-height: 1;
     font-weight: 400;
-    letter-spacing: 2;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #222222;
 
@@ -15,20 +15,20 @@
 }
 
 .img-thumbnail {
-    border-radius: 50;
+    border-radius: 50px;
 }
 
 .header-social-links {
-    padding-right: 15;
+    padding-right: 15px;
 }
 
 .header-social-links a {
     color: #6f6f6f;
-    padding-left: 6;
+    padding-left: 6px;
     display: inline-block;
     line-height: 0;
-    transition: 0.5;
-    font-size: 16;
+    transition: 1s;
+    font-size: 16px;
 }
 
 .header-social-links a:hover {
@@ -65,7 +65,7 @@ body {
 }
 
 .fill-parent {
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 .no-list-item {

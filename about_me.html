@@ -4,14 +4,12 @@
     <head>
         <title>About Me</title>
 
-        <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="description" content="About Alex Gobert">
         <meta name="keywords" content="html, Alex Gobert, Alex, Gobert, UTCS">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link href="media/Headshot-sm.jpg" rel="icon">
-        <link href="media/Headshot-sm.jpg" rel="apple-touch-icon">
 
         <!-- Bootstrap main and icons -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -26,84 +24,92 @@
     <body>
         <a id="top" class="d-none"></a>
 
-        <header id="header" class="mt-0 pt-0">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-        
-                <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html"><img class="img-thumbnail img-fluid rounded-circle" width="60" src="media/Headshot-sm.jpg"></a>
-        
-                        <!-- collapses when screen is too small -->
-                        <button
-                            class="navbar-toggler"
-                            type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                        </button>
-                        
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link mb-0 px-0 pb-0 mx-1" href="index.html">Home</a>
-                                <a class="nav-link active mb-0 px-0 pb-0 mx-1"  aria-current="page" href="about_me.html">About Me</a>
-                                <a class="nav-link mb-0 px-0 pb-0 mx-1" href="projects.html">Projects</a>
-                                <a class="nav-link mb-0 px-0 pb-0 mx-1" href="experience.html">Experience</a>
-                                <a class="nav-link" href="files/CS Resume.pdf">Resume</a>
+        <div class="d-flex flex-column justify-content-center w-100 h-100 p-3 mx-auto">
+            <header id="header" class="mt-0 pt-0">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+            
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html"><img class="img-thumbnail img-fluid rounded-circle" width="60" src="media/Headshot-sm.jpg" alt="Small headshot used as logo"></a>
+            
+                            <!-- collapses when screen is too small -->
+                            <button
+                                class="navbar-toggler"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+            
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div class="navbar-nav">
+                                    <a class="nav-link mb-0 px-0 pb-0 mx-1" href="index.html">Home</a>
+                                    <a class="nav-link active mb-0 px-0 pb-0 mx-1" aria-current="page" href="about_me.html">About Me</a>
+                                    <a class="nav-link mb-0 px-0 pb-0 mx-1" href="projects.html">Projects</a>
+                                    <a class="nav-link mb-0 px-0 pb-0 mx-1" href="experience.html">Experience</a>
+                                    <a class="nav-link" href="files/CS%20Resume.pdf">Resume</a>
+                                </div>
                             </div>
                         </div>
+                    </nav>
+
+                    <!-- Social Links -->
+                    <div class="header-social-links">
+                        <a href="mailto:alexandergobert@utexas.edu" id="email"><i class="bi bi-envelope"></i></a>
+                        <a href="https://linkedin.com/in/alex-gobert" id="linkedin"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/alexgobert" id="facebook"><i class="bi bi-github"></i></a>
                     </div>
-                </nav>
-
-                <!-- Social Links -->
-                <div class="header-social-links">
-                    <a href="mailto:alexandergobert@utexas.edu" id="email"><i class="bi bi-envelope"></i></a>
-                    <a href="https://linkedin.com/in/alex-gobert" id="linkedin"><i class="bi bi-linkedin"></i></a>
-                    <a href="https://github.com/alexgobert" id="facebook"><i class="bi bi-github"></i></a>
                 </div>
-            </div>
-        </header>
-
-        <div id="about" class="container" data-aos="fade-up">
-            <h2 class="text-center">About Me</h2>
-            <div class="row pt-lg-4 pt-2">
-                <div class="col-lg-4 pt-0">
-                    <img src="media/Headshot.jpg" alt="Professional headshot of Alex Gobert" class="fill-parent img-responsive">
-                </div>
-                <div class="col-lg-8 pt-0">
-                    <h3 class="text-center">Mechanical & Software Engineer</h3>
-                    <div class="ms-2">
-                        <div id="desc-list">
-                            <ul class="no-list-item">
-                                <li>
-                                    <b>Phone:</b> 713-377-1008
-                                </li>
-                                <li>
-                                    <b>Email:</b> <a href="mailto:alexandergobert@utexas.edu">alexandergobert@utexas.edu</a>
-                                </li>
-                                <li>
-                                    <b>Education:</b> University of Texas at Austin
-                                    <ul class="no-list-item">
-                                        <li>B.S. Mechanical Engineering</li>
-                                        <li>Certificate in Elements of Computing</li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <b>Location:</b> Sugar Land (Houston), TX
-                                </li>
-                                <li>
-                                    <b>Website:</b> <a href="https://cs.utexas.edu/~agobear">https://cs.utexas.edu/~agobear</a>
-                                </li>
-                                <li>
-                                    <b>GitHub:</b> <a href="https://github.com/alexgobert">alexgobert</a>
-                                </li>
-                                <li>
-                                    <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/alex-gobert/">Alex Gobert</a>
-                                </li>
-                            </ul>
+            </header>
+        
+            <main id="about" class="container" data-aos="fade-up">
+                <h2 class="text-center">About Me</h2>
+                <div class="row pt-lg-4 pt-2">
+                    <div class="col-lg-3 pt-0">
+                        <img src="media/Headshot.jpg" alt="Professional headshot of Alex Gobert" class="img-fluid">
+                    </div>
+                    <div class="col-lg-3 pt-0">
+                        <img src="media/Alex2-PPC.JPEG" alt="Picture of Alex with his Corgi, Momo" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 pt-0">
+                        <h3 class="text-center">Mechanical & Software Engineer</h3>
+                        <div class="ms-2">
+                            <div id="desc-list">
+                                <ul class="no-list-item">
+                                    <li>
+                                        <b>Phone:</b> 713-377-1008
+                                    </li>
+                                    <li>
+                                        <b>Email:</b> <a href="mailto:alexandergobert@utexas.edu">alexandergobert@utexas.edu</a>
+                                    </li>
+                                    <li>
+                                        <b>Education:</b> University of Texas at Austin
+                                        <ul class="no-list-item">
+                                            <li>B.S. Mechanical Engineering</li>
+                                            <li>Certificate in Elements of Computing</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Location:</b> Sugar Land (Houston), TX
+                                    </li>
+                                    <li>
+                                        <b>Website:</b> <a href="https://cs.utexas.edu/~agobear">cs.utexas.edu/~agobear</a>
+                                    </li>
+                                    <li>
+                                        <b>GitHub:</b> <a href="https://github.com/alexgobert">alexgobert</a>
+                                    </li>
+                                    <li>
+                                        <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/alex-gobert/">Alex Gobert</a>
+                                    </li>
+                                    <li>
+                                        <b>References:</b> <a href="files/References.pdf">PDF</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>I'm an aspiring Mechanical and Software Engineer and the father to a Pembroke Welsh Corgi named Momo from Houston, TX. I love my dog, cooking, and spending time with family. I work part-time at HEB and I've held an internship with the Texas Department of Transportation. I'm currently open to full-time positions as an entry-level software developer. I prefer working remote or in the Greater Houston Area but am open to relocation.</p>
                         </div>
-                        <p>I'm an aspiring Mechanical and Software Engineer and the father to a Pembroke Welsh Corgi named Momo from Houston, TX. I love my dog, cooking, and spending time with family. I work part-time at HEB and I've held an internship with the Texas Department of Transportation. I'm currently open to full-time positions as an entry-level software developer. I prefer working remote or in the Greater Houston Area but am open to relocation.</p>
                     </div>
                 </div>
-            </div>
+            </main>
         </div>
 
         <!-- Back to top button -->
