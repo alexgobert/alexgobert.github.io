@@ -66,7 +66,7 @@
                     },
                     {
                         "name": "ssh",
-                        "commands": ["ssh agobear@lyra.cs.utexas.edu"]
+                        "commands": ["ssh agobear@lords-of-waterdeep.cs.utexas.edu"]
                     }
                 ]
             }
