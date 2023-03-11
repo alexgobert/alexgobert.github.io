@@ -5,9 +5,9 @@ const SKILL_SECTIONS = [
     'Engineering Programs'
 ];
 const SKILL_ITEMS = [
-    ['Extreme Programming (XP)', 'Object-Oriented Programming (OOP)', 'Agile', 'Scrum', 'RESTful APIs', 'Relational Database Management Systems (RDBMS)'],
-    ['Python', 'Swift', 'Java', 'HTML', 'CSS (Native & Bootstrap)', 'JavaScript', 'JSON', 'XML', 'C++ (Arduino)'],
-    ['Slack', 'Git', 'XCode', 'Make', 'Docker', 'Google Cloud Platform (GCP)', 'mySQL', 'PostgreSQL', 'SQLAlchemy', 'Flask', 'ReactJS'],
+    ['Extreme Programming (XP)', '<b>Object-Oriented Programming (OOP)</b>', 'Agile', 'Scrum', 'RESTful APIs', 'Relational Database Management Systems (RDBMS)'],
+    ['<b>Python</b>', 'Swift', 'Java', 'HTML', 'CSS (Native & Bootstrap)', 'JavaScript', 'JSON', 'XML', 'C++ (Arduino)'],
+    ['Slack', '<b>Git</b>', 'XCode', 'Make', 'Docker', 'Google Cloud Platform (GCP)', 'mySQL', 'PostgreSQL', 'SQLAlchemy', 'Flask', 'ReactJS'],
     ['MATLAB', 'Adobe Creative Cloud (CC)', 'Google Earth', 'MicroStation', 'ProjectWise', 'SolidWorks']
 ]
 
