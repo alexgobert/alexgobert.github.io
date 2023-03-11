@@ -37,11 +37,29 @@
 
 /* Background Image */
 body {
-    /* background-image: url(media/Headshot.jpg); */
     background-color: #f8f5e5;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: center center;
+}
+
+@media (min-width: 768px) {
+    #splash {
+        background-image: url(media/IMG_9556.jpg);
+        background-size: cover;
+        background-position: center center;
+        
+        text-align: right;
+        color: black;
+    }
+}
+
+@media (max-width: 767px) {
+    #splash {
+        background-image: url(media/IMG_9551.jpg);
+        background-size: cover;
+        background-position: bottom;
+
+        text-align: center;
+        color: white;
+    }
 }
 
 .mt-6 {
