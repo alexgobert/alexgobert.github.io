@@ -40,6 +40,10 @@ body {
     background-color: #f8f5e5;
 }
 
+#splash_text_bg {
+    background: rgba(204, 204, 204, 0.5);
+}
+
 @media (min-width: 768px) {
     #splash {
         background-image: url(media/IMG_9556.jpg);
