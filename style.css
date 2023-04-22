@@ -40,30 +40,13 @@ body {
     background-color: #f8f5e5;
 }
 
-#splash_text_bg {
-    background: rgba(204, 204, 204, 0.5);
-}
-
-@media (min-width: 768px) {
-    #splash {
-        background-image: url(media/IMG_9556.jpg);
-        background-size: cover;
-        background-position: center center;
-        
-        text-align: right;
-        color: black;
-    }
-}
-
-@media (max-width: 767px) {
-    #splash {
-        background-image: url(media/IMG_9551.jpg);
-        background-size: cover;
-        background-position: bottom;
-
-        text-align: center;
-        color: white;
-    }
+#splash {
+    background-image: url(media/IMG_9556.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+    text-align: right;
+    text-shadow: 0.75px 0.75px gray;
 }
 
 .mt-6 {
@@ -105,4 +88,33 @@ body {
     bottom: 20px;
     right: 20px;
     display: block;
+}
+
+@media (max-width: 767px) { /* medium */
+    #splash {
+        background-image: url(media/IMG_9551.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+
+    #splash-text {
+        text-align: center;
+    }
+
+    .text-bg {
+        background-image: none;
+    }
+
+    .text-md-light {
+        /* override .text-dark */
+        color: white !important;
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .navbar-nav .nav-link.active {
+        color: white;
+    }
 }
